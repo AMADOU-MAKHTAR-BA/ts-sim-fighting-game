@@ -32,7 +32,8 @@ export default function Carte({ person, onClick }: TypePerson) {
       </div>
 
       <div className="flex justify-center items-center ">
-        <button className="w-full mx-2 my-2 p-1 bg-red-500 rounded-2xl shadow shadow-black text-white font-bold hover:scale-103 hover:bg-red-600" type="button" onClick={onClick}>Supprimer</button>
+        <button className="w-full mx-2 my-2 p-1 bg-red-500 rounded-2xl shadow shadow-black text-white font-bold hover:scale-103 hover:bg-red-600"
+         type="button" onClick={onClick}>Supprimer</button>
       </div>
     </div>
   );
